@@ -34,8 +34,7 @@ For instance, running
 
 will produce the following output
 
-```Results: lecar      size=50       hits=480, misses=20, ios=500, hitrate=96.0%, data.txt
-```
+```Results: lecar      size=50       hits=480, misses=20, ios=500, hitrate=96.0%, data.txt```
 
 #### Traces
 
