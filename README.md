@@ -1,22 +1,9 @@
-#### Learning Cache Replacement with ML-based LeCaR
+#### Driving Cache Replacement with ML-based LeCaR
 
 LeCaR is ML-based algorithm that uses reinforcement learning and regret minimization to model the cache replacement problem. LeCaR relies only on two fundamental policies: recency-based and frequency-based evictions. Each policy has an assigned weight (probability distribution) that is learned based on wrong decisions. LeCaR achieves good performance when cache sizes are small relative to the working set.
 
 More details about this work can be found in the link to the paper:
 [LeCaR HotStorage'18 (PDF)](https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-vietri.pdf)
-    
-    Citation:
-    
-    @inproceedings {216890,
-    author = {Giuseppe Vietri and Liana V. Rodriguez and Wendy A. Martinez and Steven Lyons and Jason Liu and Raju Rangaswami and Ming Zhao and Giri Narasimhan},
-    title = {Driving Cache Replacement with ML-based LeCaR},
-    booktitle = {10th {USENIX} Workshop on Hot Topics in Storage and File Systems (HotStorage 18)},
-    year = {2018},
-    address = {Boston, MA},
-    url = {https://www.usenix.org/conference/hotstorage18/presentation/vietri},
-    publisher = {{USENIX} Association},
-    month = jul,
-    }
 
 #### Code source
 
