@@ -7,21 +7,27 @@ More details about this work can be found in the link to the paper:
 
 #### Code source
 
-The LeCaR implementation can be found in the code/alg folder.
+The LRU, LFU, ARC and LeCaR implementations can be found in the code/alg folder.
 Additional code for data structure implementations are in the code/alg/lib folder. 
 
-To run experiments, the arguments can be modified appropriately with the specific parameters such as input trace and cache size.
+To run experiments, the arguments can be modified appropriately with the specific parameters such as cache size, input trace and algorithm name.
 Executing the following command inside the code directory will produce the results: 
 
-```python3 run.py <cache_size> lecar <trace_name>```
+```python3 run.py <cache_size> <algorithm> <trace_name>```
 
-For instance, running 
+For instance, running the commands 
 
-```python3 run.py 50 lecar data.txt```
+```python3 run.py 4 lru data.txt```
+```python3 run.py 4 lfu data.txt```
+```python3 run.py 4 arc data.txt```
+```python3 run.py 4 lecar data.txt```
 
-will produce the following output
+will produce the following outputs
 
-```Results: lecar      size=50       hits=480, misses=20, ios=500, hitrate=96.0%, data.txt```
+```Results: lru        size=4        hits=181, misses=319, ios=500, hitrate=36.2%, data.txt```
+```Results: lfu        size=4        hits=132, misses=368, ios=500, hitrate=26.4%, data.txt```
+```Results: arc        size=4        hits=176, misses=324, ios=500, hitrate=35.2%, data.txt```
+```Results: lecar      size=4        hits=183, misses=317, ios=500, hitrate=36.6%, data.txt```
 
 #### Traces
 
