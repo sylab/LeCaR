@@ -30,9 +30,9 @@ Executing the following command inside the code directory will produce the resul
 
 For instance, running the commands 
 
-```python3 run.py 4 lru data.txt```\   
-```python3 run.py 4 lfu data.txt```\ 
-```python3 run.py 4 arc data.txt```\ 
+```python3 run.py 4 lru data.txt```\
+```python3 run.py 4 lfu data.txt```\
+```python3 run.py 4 arc data.txt```\
 ```python3 run.py 4 lecar data.txt```
 
 will produce the following outputs
