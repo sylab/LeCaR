@@ -17,17 +17,17 @@ Executing the following command inside the code directory will produce the resul
 
 For instance, running the commands 
 
-```python3 run.py 4 lru data.txt```
-```python3 run.py 4 lfu data.txt```
-```python3 run.py 4 arc data.txt```
-```python3 run.py 4 lecar data.txt```
+```python3 run.py 4 lru data.txt```. 
+```python3 run.py 4 lfu data.txt```. 
+```python3 run.py 4 arc data.txt```. 
+```python3 run.py 4 lecar data.txt```. 
 
 will produce the following outputs
 
-```Results: lru        size=4        hits=181, misses=319, ios=500, hitrate=36.2%, data.txt```
-```Results: lfu        size=4        hits=132, misses=368, ios=500, hitrate=26.4%, data.txt```
-```Results: arc        size=4        hits=176, misses=324, ios=500, hitrate=35.2%, data.txt```
-```Results: lecar      size=4        hits=183, misses=317, ios=500, hitrate=36.6%, data.txt```
+```Results: lru        size=4        hits=181, misses=319, ios=500, hitrate=36.2%, data.txt```. 
+```Results: lfu        size=4        hits=132, misses=368, ios=500, hitrate=26.4%, data.txt```. 
+```Results: arc        size=4        hits=176, misses=324, ios=500, hitrate=35.2%, data.txt```. 
+```Results: lecar      size=4        hits=183, misses=317, ios=500, hitrate=36.6%, data.txt```. 
 
 #### Traces
 
